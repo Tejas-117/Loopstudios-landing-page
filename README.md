@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/Tejas-117/Loopstudios-landing-page)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://tejas-117.github.io/Loopstudios-landing-page/)
 
 ## My process
 
