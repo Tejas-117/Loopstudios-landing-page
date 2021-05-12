@@ -65,7 +65,7 @@ a::after{
    background-color: var(--White);
    transition: width 0.3s ease, left 0.3s ease ;
 }
-a:hover::after{
+a:not(.toggle-button):hover::after{
    width: 100%;
    left: 0%;
 }
@@ -76,6 +76,7 @@ a:hover::after{
    top: 0.3rem;
    right: 1rem;
 }
+
 .close-img{
    display: none;
 }
@@ -84,6 +85,8 @@ a:hover::after{
 @media only screen and (max-width: 800px) {
    .top-section{
       background: url(../images/mobile/image-hero.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
       padding: 6% 5%;
    }
    .navbar-links{
