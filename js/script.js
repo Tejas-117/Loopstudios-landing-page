@@ -12,17 +12,18 @@ const topSection = document.querySelector('.top-section');//to change the bg acc
       if(navbarLinks.classList.contains('show-navbar')){
          hamburgerBtn.style.display='none';
          closeBtn.style.display='block';
-         
+         document.body.style.overflow='hidden';//overflow hidden when navbar is active;
       }
       else{
          hamburgerBtn.style.display='block';
          closeBtn.style.display='none';
+         document.body.style.overflow='unset';
       }
    });
 
 
 const deviceWidth = document.body.clientWidth;
-// chamging the  images for desktop depending on device width;
+// changing the images for desktop depending on device width;
 const heroImg = document.querySelector('.hero-img');
  if(deviceWidth>=900){
     console.log(heroImg);
