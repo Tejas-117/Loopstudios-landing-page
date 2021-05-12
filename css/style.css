@@ -127,7 +127,7 @@ a:not(.toggle-button):hover::after{
 .top-text{
    font-family: 'Josefin Sans', sans-serif;
    text-transform: uppercase;
-   font-size: 2.8rem;
+   font-size: 10vw;
    margin: 49% auto 40%;
    padding: 7%;
    border: 2px solid var(--White);
