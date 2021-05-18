@@ -26,7 +26,5 @@ const deviceWidth = document.body.clientWidth;
 // changing the images for desktop depending on device width;
 const heroImg = document.querySelector('.hero-img');
  if(deviceWidth>=900){
-    console.log(heroImg);
    heroImg.src = "images/desktop/image-interactive.jpg";
-   console.log(heroImg);
  }
