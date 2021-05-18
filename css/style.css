@@ -321,6 +321,12 @@ ion-icon{
 
 /* few adjustments for tablets */
 @media only screen  and (min-width: 600px) and (max-width: 900px) {
+   .navbar-links{
+      margin: 35vh 0;
+   }
+   .navbar-links ul li{
+      font-size: 2rem;
+   }
    .top-text{
       margin: 8% 0%;
       width: 70%;
@@ -340,4 +346,5 @@ ion-icon{
    footer span{
       margin-top: 5rem;
    }
+
 }
