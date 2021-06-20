@@ -82,12 +82,13 @@ a:not(.toggle-button):hover::after{
 }
 
 /* navbar for mobiles and tablets*/
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
    .top-section{
       background: url(../images/mobile/image-hero.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       padding: 6% 5%;
+      min-height: 70vh;
    }
    .navbar-links{
       width: 100%;
@@ -248,7 +249,6 @@ ion-icon{
       margin: 10% 0%;
       padding: 4%;
    }
-
    .second-section{
       padding: 10% 8%;
       position: relative;
@@ -321,6 +321,12 @@ ion-icon{
 
 /* few adjustments for tablets */
 @media only screen  and (min-width: 600px) and (max-width: 900px) {
+   /* .top-section {
+      background-image: url(../images/desktop/image-hero.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+   } */
    .navbar-links{
       margin: 35vh 0;
    }
@@ -330,6 +336,7 @@ ion-icon{
    .top-text{
       margin: 8% 0%;
       width: 70%;
+      font-size: 3rem;
    }
    .second-section{
       padding: 20% 10% 15%;
